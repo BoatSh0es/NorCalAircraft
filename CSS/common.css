@@ -109,12 +109,14 @@ a:hover {
     width: 40%;
     float: left;
     margin-right: 30px;
+    border-radius: 5px;
 }
 
 .Instructor {
     width: 40%;
     float: right;
     margin-left: 30px;
+    border-radius: 5px;
 }
 
 .skill-row {
