@@ -74,6 +74,12 @@ a:hover {
     padding-top: 100px;
 }
 
+.mountain {
+    position: relative;
+    align-items: center;
+    margin-bottom: -4px;
+}
+
 .middle-container {
     margin: 100px 0;
 }
@@ -87,7 +93,7 @@ a:hover {
     color: #66BFBF;
 }
 
-.top-cloud {
+.top-plane {
     position: relative;
     margin-right: 500px;
     margin-top: 20px;
@@ -99,15 +105,14 @@ a:hover {
     margin-bottom: 300px;
 }
 
-.Computer {
-    filter: invert(.1);
-    width: 26%;
+.Fleet {
+    width: 40%;
     float: left;
     margin-right: 30px;
 }
 
-.Python {
-    width: 28%;
+.Instructor {
+    width: 40%;
     float: right;
     margin-left: 30px;
 }
