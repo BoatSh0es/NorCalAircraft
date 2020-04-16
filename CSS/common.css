@@ -60,6 +60,7 @@ a {
 
 a:hover {
     color: #66BFBF;
+    transition: 0.3s all ease-in-out;
 }
 
 .copyright {
@@ -174,7 +175,9 @@ a:hover {
 	font-size:15px;
 	font-weight:bold;
     text-decoration: none;
+    margin-top: 12px;
 }
+
 
 .textFeild:focus {
     outline: none;
