@@ -143,3 +143,45 @@ a:hover {
     font-size: 1.2rem;
     appearance: none;
 }
+
+.textFeild {
+    width : 200px;
+    padding: 2px;
+    margin: 5px;
+	background-color:#ffffff;
+	border-radius:5px;
+	border:1px solid darkgray;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+}
+
+.myButton {
+    width: 100px;
+    box-sizing: content-box;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:5px;
+	border:1px solid darkgray;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+    text-decoration: none;
+}
+
+.textFeild:focus {
+    outline: none;
+}
+
+.textFeild:hover {
+    border-bottom: 3px solid #66BFBF;
+    transition: 0.3s all ease-in-out;
+}
+
